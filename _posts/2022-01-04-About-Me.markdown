@@ -1,0 +1,24 @@
+---
+layout: post
+title: About Me
+date: 2022-01-4 13:32:20 +0300
+description: Get to know about me and this page a significant amount more. # Add post description (optional)
+img: me.JPG # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [About, Me, Page, Pinned]
+---
+
+# About me
+I am from Vietnam; I am a designer and programmer wannabe. I study in Purdue and majoring in CNIT (3.6 GPA hehe). I traveled half of the earth to the United States for high school and college. Living in two different countries has taught me a lot about many aspects of life. Especially when I have to live independently for the majority of my teenage years and adulthood without much guidance. Everything my mom and dad have taught me from my childhood I put carefully inside my heart; some became my values and some were challenged. I like traveling and socializing with people (which is inarguably one of the most important things I managed to unleash when puberty hits). I am also really into sports both watching and playing. I also like fashion, which explains why I like to challenge the conventional way of wearing. I usually come up with unique solutions to every problem (flex, i know). I love learning and studying new things to enrich myself and to give back to the world. 
+
+
+# About this page.
+This page is created to document the things I did, and maybe share a way of doing something (if anybody finds this helpful). Think of this page as each chapter of my life. It slowly shifts from predominantly programming, and after 3 years of hiatus, it changes to designing. It shifts from gaming vibes to more of a professional vibe. It shifts from admiring a product to actually creating one. Things change, people change. My teenage years are coming to an end (as of the writing of this, I will turn 20 in 8 months), I have done everything a young teen would have done and more, and it is time to close this chapter to start a new one, the one where I put a heavy focus on my career. Now it does not mean I am gonna stop doing the things I used to, it just means that I have bigger priorities. 
+
+[My portfolio also my main website](https://null0verflow.xyz)
+
+This page is powered by Flexible-Jekyll with modifications I enhanced to make the experience even better (this is probably the closet I got to reverse-engineering lol). 
+
+[Check out this blog on github!](https://github.com/frychicken/blog) I literally have like 1m commits because I don't want to set up the testing environment on my macbook, so don't mind that :)
+
+I am also a  >1.5 million snapchat creator btw (forgot to mention)

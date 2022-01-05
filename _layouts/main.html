@@ -1,0 +1,347 @@
+---
+layout: default
+---
+
+<aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+      </div>
+      <style>
+        #zoomlol {
+          cursor: pointer;
+          opacity: 1;
+          transition: 0.3s;
+          transition: transform .2s;
+          margin: 0 auto;
+        }
+
+        #zoomlol:hover {
+          opacity: 0.6;
+          -ms-transform: scale(1.1); /* IE 9 */
+          -webkit-transform: scale(1.1); /* Safari 3-8 */
+          transform: scale(1.1); 
+        }
+      </style>
+      <div id="zoomlol" class="author-name">{{site.author}}</div>
+      <p>{{site.about-author}}</p>
+      <p></p>
+      <style>
+
+        .switch {
+          position: relative;
+          display: inline-block;
+          width: 40px;
+          height: 14px;
+        }
+
+        .switch input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #323030;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 6px;
+          width: 6px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+
+        input:checked + .slider {
+          background-color: #323030;
+        }
+
+        input:focus + .slider {
+          box-shadow: 0 0 1px #323030;
+        }
+
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
+<label class="switch">
+  <input  id="toggleSwitch" type="checkbox">
+  <span class="slider round"></span>
+</label>
+<script>
+
+  document.getElementById("zoomlol").onclick = function() {
+   location.href = "https://frychicken.github.io/blog/About-Me/";
+ };
+ document.getElementById("toggleSwitch").onclick = function() {
+  myFunction()
+};
+var lol = setTimeout(function(){ 
+ var x = document.querySelectorAll('.post')[0];
+ x.id="stickie";
+ var paragraph = document.querySelector(".post-words");
+ var text = document.createTextNode(" — Pinned");
+
+ paragraph.appendChild(text);
+}, 1000);
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+   document.querySelector('.post').style.height = "100px" ;
+   document.querySelector('.post').style.minHeight = "100px" ;
+
+   document.querySelector('.post-thumbnail').style.minHeight = "30px" ;
+ } else {
+  if (screen.width >= 600) {
+    document.querySelector('.post').style.height = "180px" ;
+    document.querySelector('.post').style.minHeight = "180px" ;
+
+    document.querySelector('.post-thumbnail').style.minHeight = "100px" ;
+    if (window.matchMedia("(orientation: landscape)").matches && screen.height<1000){
+      document.querySelector('.post').style.height = "320px" ;
+      document.querySelector('.post').style.minHeight = "320px" ;
+
+      document.querySelector('.post-thumbnail').style.minHeight = "150px" ;
+
+    }
+  }else{
+    document.querySelector('.post').style.height = "270px" ;
+    document.querySelector('.post').style.minHeight = "270px" ;
+
+    document.querySelector('.post-thumbnail').style.minHeight = "100px" ;
+
+  }
+}}
+
+var color2 = localStorage.getItem('storedValue');
+
+var lol;
+if (color2 === 'black') {
+
+
+
+  document.querySelector('.sidebar').style.backgroundColor = "black";
+  localStorage.setItem('storedValue', document.querySelector('.sidebar').style.backgroundColor);
+  document.body.style.color = "white";
+  document.body.style.backgroundColor = "#100f0f";
+
+  setTimeout(function (){
+
+    var bgPale = document.querySelectorAll('.post');
+    bgPale.forEach(el => el.style.backgroundColor = "black");
+
+    var bgPale2 = document.querySelectorAll('.post-title a');
+    bgPale2.forEach(el => el.style.color = "#4a72b2");
+
+    var bgPale3 = document.querySelectorAll('.contact ul li a ');
+    bgPale3.forEach(el => el.style.color = "white");
+
+    document.querySelector('.sidebar').style.color = "white";
+    document.querySelector('.author-name').style.color = "white"; 
+
+    document.querySelector('.contact-title').style.color = "white";
+
+  }, 500);
+
+  var lol = setInterval(function(){ 
+    try {
+
+
+     document.querySelector('.contact-title').style.color = "white";
+     document.querySelector('.content-box').style.backgroundColor = "#100f0f" ;
+
+     document.querySelector('.article-page').style.background = "#100f0f";
+     document.querySelector('.article-page').style.color = "white";
+     var bgPale4 = document.querySelectorAll('.page-tag a ');
+     bgPale4.forEach(el => el.style.color = "#4A72B2");
+     clearInterval(lol);
+   } catch(err) {
+
+   }}, 100);
+
+  try {
+
+
+   document.querySelector('.contact-title').style.color = "white";
+   document.querySelector('.content-box').style.backgroundColor = "#100f0f" ;
+
+   document.querySelector('.article-page').style.background = "#100f0f";
+   document.querySelector('.article-page').style.color = "white";
+
+ } catch(err) {}
+
+
+
+
+} else {
+
+  document.querySelector('.sidebar').style.backgroundColor = "white";
+  localStorage.setItem('storedValue', document.querySelector('.sidebar').style.backgroundColor);
+  document.querySelector('.sidebar').style.color = "#515151";
+  document.querySelector('.author-name').style.color = "black";
+  try {
+   document.querySelector('.contact-title').style.color = "#333030" ;
+   document.querySelector('.content-box').style.backgroundColor = "#FBFBFB" ;
+
+ } catch(err){}
+ document.body.style.backgroundColor = "#FBFBFB";
+ document.body.style.color = "#333030";
+
+ var bgPale = document.querySelectorAll('.post');
+ bgPale.forEach(el => el.style.backgroundColor = "white");
+
+ var bgPale2 = document.querySelectorAll('.post-title a');
+ bgPale2.forEach(el => el.style.color = "#2B3E5D");
+
+
+ var bgPale3 = document.querySelectorAll('.contact ul li a ');
+ bgPale3.forEach(el => el.style.color = "#323030");
+
+ try {
+  var bgPale4 = document.querySelectorAll('.page-tag a ');
+  bgPale4.forEach(el => el.style.color = "#263959");
+  document.querySelector('.article-page').style.background = "white";
+  document.querySelector('.article-page').style.color = "#333030";
+} catch(err) {}
+
+
+}
+
+
+function myFunction() {
+
+  let color = document.querySelector('.sidebar').style.backgroundColor;
+
+  if (color === 'black') {
+   document.querySelector('.sidebar').style.backgroundColor = "white";
+   localStorage.setItem('storedValue', document.querySelector('.sidebar').style.backgroundColor);
+   document.querySelector('.sidebar').style.color = "#515151";
+   document.querySelector('.author-name').style.color = "black";
+   document.querySelector('.contact-title').style.color = "#333030";
+   clearInterval(lol);
+   document.querySelector('.content-box').style.backgroundColor = "#FBFBFB";
+
+
+   document.body.style.backgroundColor = "#FBFBFB";
+   document.body.style.color = "#333030";
+
+   const bgPale = document.querySelectorAll('.post');
+   bgPale.forEach(el => el.style.backgroundColor = "white");
+
+   const bgPale2 = document.querySelectorAll('.post-title a');
+   bgPale2.forEach(el => el.style.color = "#2B3E5D");
+
+
+   const bgPale3 = document.querySelectorAll('.contact ul li a ')
+   bgPale3.forEach(el => el.style.color = "#323030");
+
+   try {
+     var bgPale4 = document.querySelectorAll('.page-tag a ');
+     bgPale4.forEach(el => el.style.color = "#263959");
+     document.querySelector('.article-page').style.background = "white";
+     document.querySelector('.article-page').style.color = "#333030";
+   } catch(err) {}
+
+
+ } else {
+   document.querySelector('.sidebar').style.backgroundColor = "black";
+   localStorage.setItem('storedValue', document.querySelector('.sidebar').style.backgroundColor);
+   document.querySelector('.sidebar').style.color = "white";
+   document.querySelector('.author-name').style.color = "white";
+   document.querySelector('.contact-title').style.color = "white";
+   document.querySelector('.content-box').style.backgroundColor = "#100f0f" ;
+   document.body.style.color = "white";
+   document.body.style.backgroundColor = "#100f0f";
+
+   const bgPale = document.querySelectorAll('.post');
+   bgPale.forEach(el => el.style.backgroundColor = "black");
+
+   const bgPale2 = document.querySelectorAll('.post-title a');
+   bgPale2.forEach(el => el.style.color = "#4a72b2");
+
+   const bgPale3 = document.querySelectorAll('.contact ul li a ');
+   bgPale3.forEach(el => el.style.color = "white");
+
+   try {
+     var bgPale4 = document.querySelectorAll('.page-tag a ');
+     bgPale4.forEach(el => el.style.color = "#4A72B2");
+     document.querySelector('.article-page').style.background = "#100f0f";
+     document.querySelector('.article-page').style.color = "white";
+
+   } catch(err) {}
+
+ }
+
+}
+</script>
+
+<p></p>
+<p style="font-size:10px;">Powered with &#10084;&#65039; by Flexible-Jekyll</p>
+</div>
+</header> <!-- End Header -->
+<footer>
+  <section class="contact">
+    <h3 class="contact-title">Contact me</h3>
+    <ul>
+      {% if site.social-twitter %}
+      <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      {% else %}
+      <li><a href="https://snapchat.com/add/bobdinh139" target="_blank"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.social-facebook %}
+      <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      {% else %}
+      <li><a href="https://behance.net/frychicken" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.social-github %}
+      <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+      {% else %}
+      <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.social-linkedin %}
+      <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      {% else %}
+      <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.social-email %}
+      <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+      {% else %}
+      <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+      {% endif %}
+    </ul>
+  </section> <!-- End Section Contact -->
+  <div class="copyright">
+    <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+  </div>
+</footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  {{ content }}
+</div>

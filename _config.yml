@@ -1,0 +1,35 @@
+title: Jordy Blog
+description: > # this means to ignore newlines until "baseurl:"
+  My bog for what I have created
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://null0verflow.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Duong Dinh # add your name
+author-img: abc.png # add your photo
+about-author: I am a designer and programmer who has the biggest urge to learn more about designing and programming. # add description
+#social-twitter: bobdinh139 # add your Twitter handle
+#social-facebook: frychicken # add your Facebook handle
+social-github: frychicken # add your Github handle
+social-linkedin: frychicken # add your Linkedin handle
+social-email: bobdinh139@gmail.com # add your Email address
+
+# Disqus
+discus-identifier:  frychicken # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
