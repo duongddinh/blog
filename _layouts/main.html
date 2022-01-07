@@ -26,9 +26,9 @@ layout: default
   myFunction()
 };
 var lol = setTimeout(function(){ 
- var x = document.querySelectorAll('.post')[0];
+ var x = document.querySelectorAll('.post')[1];
  x.id="stickie";
- var paragraph = document.querySelector(".post-words");
+ var paragraph = document.querySelectorAll(".post-words")[1];
  var text = document.createTextNode(" — Pinned");
 
  paragraph.appendChild(text);
@@ -38,28 +38,28 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-   document.querySelector('.post').style.height = "100px" ;
-   document.querySelector('.post').style.minHeight = "100px" ;
+   document.querySelectorAll('.post')[1].style.height = "100px" ;
+   document.querySelectorAll('.post')[1].style.minHeight = "100px" ;
 
-   document.querySelector('.post-thumbnail').style.minHeight = "30px" ;
+   document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "30px" ;
  } else {
   if (screen.width >= 600) {
-    document.querySelector('.post').style.height = "180px" ;
-    document.querySelector('.post').style.minHeight = "180px" ;
+    document.querySelectorAll('.post')[1].style.height = "180px" ;
+    document.querySelectorAll('.post')[1].style.minHeight = "180px" ;
 
     document.querySelector('.post-thumbnail').style.minHeight = "100px" ;
     if (window.matchMedia("(orientation: landscape)").matches && screen.height<1000){
-      document.querySelector('.post').style.height = "320px" ;
-      document.querySelector('.post').style.minHeight = "320px" ;
+      document.querySelectorAll('.post')[1].style.height = "320px" ;
+      document.querySelectorAll('.post')[1].style.minHeight = "320px" ;
 
-      document.querySelector('.post-thumbnail').style.minHeight = "150px" ;
+      document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "150px" ;
 
     }
   }else{
-    document.querySelector('.post').style.height = "270px" ;
-    document.querySelector('.post').style.minHeight = "270px" ;
+    document.querySelectorAll('.post')[1].style.height = "270px" ;
+    document.querySelectorAll('.post')[1].style.minHeight = "270px" ;
 
-    document.querySelector('.post-thumbnail').style.minHeight = "100px" ;
+    document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "100px" ;
 
   }
 }}
