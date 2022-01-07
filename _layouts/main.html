@@ -37,7 +37,7 @@ var lol = setTimeout(function(){
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+  if ((document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) &&((screen.height>1000) || (screen.width >= 600))) {
    document.querySelectorAll('.post')[1].style.height = "100px" ;
    document.querySelectorAll('.post')[1].style.minHeight = "100px" ;
 
@@ -55,14 +55,37 @@ function scrollFunction() {
       document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "150px" ;
 
     }
-  }else{
+  }
+
+ else if ((document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) &&(screen.height<1000)) {
+   document.querySelectorAll('.post')[1].style.height = "100px" ;
+   document.querySelectorAll('.post')[1].style.minHeight = "100px" ;
+
+   document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "30px" ;
+ } else {
+  if (screen.width >= 600) {
+    document.querySelectorAll('.post')[1].style.height = "180px" ;
+    document.querySelectorAll('.post')[1].style.minHeight = "180px" ;
+
+    document.querySelector('.post-thumbnail').style.minHeight = "100px" ;
+    if (window.matchMedia("(orientation: landscape)").matches && screen.height<1000){
+      document.querySelectorAll('.post')[1].style.height = "320px" ;
+      document.querySelectorAll('.post')[1].style.minHeight = "320px" ;
+
+      document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "150px" ;
+
+    }
+  }
+else{
     document.querySelectorAll('.post')[1].style.height = "270px" ;
     document.querySelectorAll('.post')[1].style.minHeight = "270px" ;
 
     document.querySelectorAll('.post-thumbnail')[1].style.minHeight = "100px" ;
 
   }
-}}
+}
+}
+}
 
 var color2 = localStorage.getItem('storedValue');
 
