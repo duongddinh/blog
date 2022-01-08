@@ -16,16 +16,18 @@ I have created 6 lenses over the past 4 years, and 4 of them were created as a l
 
 # The thought process 
 
-So, the question is, was I lucky or is there something else? The answer is no, I was not lucky, I understand the market and keep up with pop culture. To understand how I did this, let’s take a look at the context of the 400k view lens first. At that time, people on twitter were going crazy over lil uzi vert, who just got a diamond soldered onto his head. Creating a lens was not on my mind at that time, because the last one I created was about 3 years ago. One day later, I wanted to send a snap with lil uzi vert filter on my face. However, I could not find any lens that had good quality and detail. At this point, I realized one thing, I could create a lens that had the potential to go viral. But here is a catch, I didn’t remember how to make one. So I looked up a tutorial on reddit. I stumbled on gold while looking for silver. I saw somebody requesting a lil uzi vert lens, and there was no answer, indicating that it did not exist at the time.
+So, the question is, was I lucky or is there something else? The answer is no, I was not lucky, I understand the market and keep up with pop culture. To understand how I did this, let’s take a look at the context of the 400k-view-lens first. At that time, people on twitter were going crazy over lil uzi vert, who just got a diamond soldered onto his head. Creating a lens was not on my mind at that time, because the last one I created was about 3 years ago. One day later, I wanted to send a snap with lil uzi vert filter on my face. However, I could not find any lens that had good quality and detail. At this point, I realized one thing, I could create a lens that had the potential to go viral. But here is a catch, I didn’t remember how to make one. So I looked up a tutorial on reddit. I stumbled on gold while looking for silver. I saw somebody requesting a lil uzi vert lens, and there was no answer, indicating that it did not exist at the time.
 
 Now, let’s take a look at the second one. The story is really similar. But I was late to the trend, knowing that memes have a lifespan. I had to create one with good quality quickly. After the lens was created, I went on reddit to promote my lens (I did not get any upvotes but any press is good press given the situation), and I let time do the work. The lens will go through the exponential growth rate and eventually touch the ceiling (S curve).
 
-Creating my two most popular lenses is very simple; the reason why these lenses went viral is because of my timing (though not perfect) and quality of the product. Which is why I am not gonna go into detail on how I create a lens, you need [lens studio](https://lensstudio.snapchat.com/download/) to do this. I also use [affinity designer](https://affinity.serif.com/en-us/) to design.
+Creating my two most popular lenses is very simple; the reasons why these lenses went viral are because of my timing (though not perfect) and quality of the product. I am not gonna go into detail on how I create these lens because of how simple mine are. 
 
 # Steps
 
 Here is a general idea on how I create my most popular lens – travis scott. 
 _I respect Travis as a singler, not as a human being. This lens was created to make fun of his apology after a tragic event. My condolences to the victims and their family._
+
+you need [lens studio](https://lensstudio.snapchat.com/download/) to do this. I also use [affinity designer](https://affinity.serif.com/en-us/) to design.
 
 - I download the travis apology video and trim it. 
 - I open lens studio, import the video 
