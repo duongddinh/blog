@@ -16,7 +16,7 @@ I have created 6 lenses over the past 4 years, and 4 of them were created as a l
 
 # The thought process 
 
-So, the question is, was I lucky or is there something else? The answer is no, I was not lucky, I understand the market and keep up with pop culture. To understand how I did this, let’s take a look at the context of the 400k-view-lens first. At that time, people on twitter were going crazy over lil uzi vert, who just got a diamond soldered onto his head. Creating a lens was not on my mind at that time, because the last one I created was about 3 years ago. One day later, I wanted to send a snap with lil uzi vert filter on my face. However, I could not find any lens that had good quality and detail. At this point, I realized one thing, I could create a lens that had the potential to go viral. But here is a catch, I didn’t remember how to make one. So I looked up a tutorial on reddit. I stumbled on gold while looking for silver. I saw somebody requesting a lil uzi vert lens, and there was no answer, indicating that it did not exist at the time.
+So, the question is, was I lucky or is there something else? The answer is no, it was not luck, I understand the market and keep up with pop culture. To understand how I did this, let’s take a look at the context of the 300k viewed lens first. At that time, people on twitter were going crazy over lil uzi vert, who just got a diamond soldered onto his head. Creating a lens was not on my mind at that time, because the last one I created was about 3 years ago. One day later, I wanted to send a snap with lil uzi vert filter on my face. However, I could not find any lens that had good quality and detail. At this point, I realized one thing, I could create a lens that had the potential to go viral. But here is a catch, I didn’t remember how to make one. So I looked up a tutorial on reddit. I stumbled on gold while looking for silver. I saw somebody requesting a lil uzi vert lens, and there was no answer, indicating that it did not exist at the time.
 
 Now, let’s take a look at the second one. The story is really similar. But I was late to the trend, knowing that memes have a lifespan. I had to create one with good quality quickly. After the lens was created, I went on reddit to promote my lens (I did not get any upvotes but any press is good press given the situation), and I let time do the work. The lens will go through the exponential growth rate and eventually touch the ceiling (S curve).
 
@@ -33,15 +33,20 @@ you need [lens studio](https://lensstudio.snapchat.com/download/) to do this. I 
 - I open lens studio, import the video 
 - I set the behavior for the video and the text guiding how to use the lens
 - I set the background color to black and white 
-- the behavior can be seen in the two images below
+- The behavior can be seen in the two images below
 
 ![]({{site.baseurl}}/assets/img/beha1.png)
 
 ![]({{site.baseurl}}/assets/img/beha2.png)
 
+### Important
+
+When you publish the lens, make sure to use appropriate name, tags, icon, and background. Small details like that can really impact how well your lens is doing. To prove this, when I was first exposed to lens studio, I created a lens with the sole purpose of studying lens creation. I published it without an icon. When I checked on the lens, it was not doing very well (as expected); I went back and added an icon, re-published it again, and the next day, the growth rate was way higher than that of the previous one without an icon. It is important to note that the lens had stopped growing in the number of views before I added the icon, I did not promote that lens in both study cases, and the lens did not contain any value that could potentially be useful in the future. Now, it might seem obvious but If you change any of the criteria listed above, it can significantly change how well your lens is doing. Understanding the market and your demographics are also crucial to your lens’ popularity. 
+
+
 # Take away
 
-It needs a bit of skill, a bit of luck, and good timing as well as social awareness to go viral on the internet.
+I don't have the best skill in designing or making 3D objects, but I have a good grip on the market and an outstanding skill in googling, which is why I am able to code and design decently without any training. I believe that if I can improve my other skills (constantly trying to), I will be a beast in this department and may force snapchat to actually verify me :)  
 
 
 
