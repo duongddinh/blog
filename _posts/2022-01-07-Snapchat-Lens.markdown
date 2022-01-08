@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How I created a viral snapchat lens
+title: How I went viral on snapchat
 date: 2022-01-7 13:32:20 +0300
-description: Almost 2 million views as of right now. # Add post description (optional)
+description: I have two trending lenses, one >1.5m views and one >300k views # Add post description (optional)
 img: lens.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Design, snapchat, lens, viral, trending]
@@ -10,7 +10,7 @@ tags: [Design, snapchat, lens, viral, trending]
 
 # Overview
 
-I have created 6 lenses over the past 4 years, and 4 of them were created as a learning curve. The other two were created to go viral. I have two trending lenses, one with 300k views and 200k plays and one with 1.5m views and 1m plays. With those two alone, I have gathered 1k subscribers. The latest one (the one with 1.5m views) gained 1m views in less than a week, and since then, slowly goes down in popularity. 
+I have created 6 lenses over the past 5 years, and 4 of them were created as a learning curve. The other two were created to go viral. I have two trending lenses, one with 300k views and 200k plays and one with 1.5m views and 1m plays. With those two alone, I have gathered 1k subscribers. The latest one (the one with 1.5m views) gained 1m views in less than a week, and since then, slowly goes down in popularity. 
 
 ![]({{site.baseurl}}/assets/img/info.png)
 
@@ -25,7 +25,7 @@ Creating my two most popular lenses is very simple; the reasons why these lenses
 # Steps
 
 Here is a general idea on how I create my most popular lens – travis scott. 
-_I respect Travis as a singler, not as a human being. This lens was created to make fun of his apology after a tragic event. My condolences to the victims and their family._
+_I respect Travis as a singer, not as a human being. This lens was created to make fun of his apology after a tragic event. My condolences to the victims and their family._
 
 you need [lens studio](https://lensstudio.snapchat.com/download/) to do this. I also use [affinity designer](https://affinity.serif.com/en-us/) to design.
 
@@ -48,6 +48,7 @@ When you publish the lens, make sure to use appropriate name, tags, icon, and ba
 
 I don't have the best skill in designing or making 3D objects, but I have a good grip on the market and an outstanding skill in googling, which is why I am able to code and design decently without any training. I believe that if I can improve my other skills (constantly trying to), I will be a beast in this department and may force snapchat to actually verify me :)  
 
+At the end of the day, this is just a "just for fun" project that i can brag about. The number does not mean anything to me, it is just to test my marketing knowledge. 
 
 
 
