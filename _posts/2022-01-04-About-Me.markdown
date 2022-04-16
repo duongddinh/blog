@@ -3,13 +3,13 @@ layout: post
 title: About Me
 date: 2022-01-4 13:32:20 +0300
 description: Get to know about me and this page a significant amount more. # Add post description (optional)
-img: me2.jpeg # Add image post (optional)
+img: prophoto.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [About, Me, Page, Pinned]
 ---
 
 # About me
-I am from Vietnam; I have been in the US for the last 5+ years -- as of the writing of this (in Michigan), and have not been back because of Covid; I am a designer and programmer wannabe. I study in Purdue and majoring in CNIT (3.6 GPA hehe). I traveled half of the earth to the United States for high school and college. Living in two different countries has taught me a lot about many aspects of life. Especially when I have to live independently for the majority of my teenage years and adulthood without much guidance. Everything my mom and dad have taught me from my childhood I put carefully inside my heart; some became my values and some were challenged. I like traveling and socializing with people (which is inarguably one of the most important life skills I managed to unleash when puberty hits). I am also really into sports both watching and playing. I am good at soccer and chess. I also like fashion, which explains why I like to challenge the conventional way of wearing. I usually come up with unique solutions to every problem (flex, i know). I love learning and studying new things to enrich myself and to give back to the world. 
+ was born in Vietnam. In September 2017, I took an adventure to go to the U.S at the age of 14 to attend High School, which was the biggest change in my life. This is where I found and enriched my passion. I like programming and designing, and I always question the world as well as how to make a product more intuitive and "fashionable". Ever since the world was first hit by the wave of Wannacry virus, the fire in my mind ignited, I realized cybersecurity is my field. I, consequently, invested a lot of time on self-teaching programming. And this came in fruition when I moved to the U.S. However, my product often lacks "fashion". Apple is highly influential in the way I design and teaching myself how to design. I always want to contribute my skills to the community and make "cool" products to the community. I have designed shirts, logos and created snapchat filters for different organizations and events. Some of my skills: programming: java, php, javascript, c#, c++, c, python; designing/photoshop: adobe photoshop, adobe illustrator, affinity photo, affinity designer; video editing skills: vegas pro, final cut pro; other: snapchat lens studio (I have 2 million views), I am good at chess (I was qualified to play district as unbeaten), soccer, and tennis.
 
 
 # About this page.
@@ -21,4 +21,4 @@ This page is powered by Flexible-Jekyll with modifications I enhanced to make th
 
 [Check out this blog on github!](https://github.com/frychicken/blog) 
 
-I am also a  >1.5 million snapchat creator btw (forgot to mention)
+
