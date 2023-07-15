@@ -13,47 +13,53 @@ Let's take a look at my website [null0verflow.xyz](https://null0verflow.xyz), we
 
 ## Opening 
 
-As a person who loves art, I have always been a fan a minimalist design. My aim is to build a product with simplicity, minimalist, and elegancy yet still remain its productivity nature. However, I have never really learned how to create art. Throughout the years, taking inspiration from Apple and many other companies, I have designed many websites "freestylely". All the design choices I gathered are all from trial and error. From those experiences, minimalist design is always my go to. _But how minimalist is enough minimalist?_ This website has what I call "square design" where it takes minimalist to another level. 
+As someone who appreciates art, I have always been a fan of minimalist design. My goal is to create products that embody simplicity, minimalism, and elegance while still maintaining their functionality. However, I have never received formal training in art. Over the years, drawing inspiration from Apple and various other companies, I have designed numerous websites in a freestyle manner. All my design choices have been the result of trial and error. Through these experiences, I have consistently gravitated towards minimalist design. Yet, I often question _how minimal is minimalist enough?_ This website features what I like to call a 'square design,' taking minimalism to a new level.
 
 ## Color
 
-**Color:** As a self taught designer, color choice was definitely important in creating a website. I decided to use the same gradient of a color to keep the theme of each page more consistent; I use the opposite color palette and/or the same shade of the color. The color choice for each page (except the first) is completely random, representing nature, everything tends to move toward randomness. The first page is my theme, black and white, which can be seen in my merch's website design [null0verflow.xyz/merch](https://null0verflow.xyz/merch).
+**Color:** As a self-taught designer, color choice has always been crucial in website creation. To maintain consistency throughout each page, I opted to utilize the same gradient of a particular color. Additionally, I experimented with the opposite color palette and/or the same shade of the color. The selection of colors for each page (excluding the first) was entirely random, symbolizing the unpredictable nature of everything around us. The initial page sets the theme with a black and white palette, which is also evident in the design of my merchandise website [null0verflow.xyz/merch](https://null0verflow.xyz/merch).
 I believe that the color choice for each page is easy on the eyes. You can check out the color theory to learn more.
 
 ## Square
 
-**Square:** I have never seen anyone design a website like this, almost _too_ minimalist. Is this the problem? There is not much content in each page, waste of space? Well, I can confidently say that I invented this design. Now, it might seem "too minimalist" to a point where it seems like there is something missing. But if you are like me, who is willing to sacrifice everything for looks, you will understand that this is not the case, however. Unless this is a static page where there is no interaction between the user and the page, this design is unique and breaks the norms. Oftentimes, you will see a picture on instagram of a perfectly beautiful woman who stands in front of the building (the building only has predominantly one color), but the picture is completely zoomed out where the building takes most of the space, and the woman stands slightly off centered. This is a beautiful picture. The same applies to this "square design."
+**Square:** I have never come across a website design quite like this—it's almost _too_ minimalist. Could that be the issue? Is there too little content on each page, leaving empty space? Well, I can confidently assert that I am the creator of this design. While it may appear excessively minimalist to the extent that something might be missing, those who, like me, prioritize aesthetics above all else will understand that this is not the case. Unless it is a static page with no user interaction, this design stands out as unique and defies conventional norms.
+
+Often, on Instagram, you might encounter a picture featuring a stunningly beautiful woman positioned in front of a building, predominantly composed of one color. The picture is intentionally zoomed out, emphasizing the building, with the woman standing slightly off-centered. It's a captivating image. The same principle applies to this "square design."
 
 Another aspect to this design is the emphasis on less words, more images. Though you can argue that people will trade anything for convenience, and that, this page failed to deliver the convenience in each glance. 
 
 ![]({{site.baseurl}}/assets/img/sd1.png)
 
-The design on the first page "trains" the user to use the website. It releases the curiosity in each shape as there is no label, which forces the user to hover on each shape to find what each shape contains. You'll see throughout the site, every shape is clickable. 
+The design of the first page acts as a guide, training the user to navigate the website. By intentionally omitting labels, it piques curiosity in each shape, compelling the user to hover over them to discover their content. Throughout the site, you'll find that every shape is clickable, encouraging interaction.
 
-The second page conveys a sudden change in aesthetic, which sets the mood for every page, people are more likely to continue to scroll down because they don't know what to expect. With smooth transitions, scrolling is even more fun. 
+On the second page, there is a sudden shift in aesthetics, setting the tone for the rest of the website. This element of surprise entices people to continue scrolling as they anticipate the unexpected. With seamless transitions, scrolling becomes an enjoyable and engaging experience
 
 ![]({{site.baseurl}}/assets/img/sd2.png)
 
-Each square delivers a different meaning. The first three squares contain three websites, my merch, discord bot, and older websites. Each of these has a similar design (black/white) and are for advertising; hence, they are in the first page. Whereas the two squares in the second page represent the research I did. Butterfly is the theme for the second page, beautiful and colorful of nature, perfectly introducing neural networks and true randomness. My neural network program introduces the idea of microevolution and macroevolution which is illustrated as the bigger squares where part of it roots in true random (smaller squares). The bigger the squares, the more proud and important the products are. 
+Each square on the website carries a distinct meaning. The first three squares showcase different websites, including my merchandise, Discord bot, and older websites. These squares share a consistent black and white design and serve the purpose of advertising, which is why they are located on the first page. On the second page, there are two squares representing the research I have conducted.
+
+The butterfly theme is central to the second page, symbolizing the beauty and vibrant colors of nature. This theme serves as a perfect introduction to topics such as neural networks and true randomness. Within my neural network program, I explore the concepts of microevolution and macroevolution. These ideas are illustrated through larger squares, which draw from the foundation of true randomness depicted by the smaller squares. The size of the squares signifies the significance and pride associated with the respective products.
 
 
 ![]({{site.baseurl}}/assets/img/sd3.png)
 
 ## Font
 
-**Font:** I use two fonts, one is the handwriting type of font (Lobster) and the other is the more classical font (Georgia), with the exception of the third page where I use Courier New to deliver the idea that I use a lot of math and coding for this specific program. The handwriting represents the playful, curious, and natural look in the design language; the other represents more of a formal look. Both fonts connected, illustrate the convention but unconventional look. 
+**Font:** I employ two fonts in my design: one is a handwriting-style font called Lobster, while the other is a more classical font, Georgia. However, on the third page, I deviate from this convention and utilize Courier New. This choice aims to convey the notion that a significant amount of mathematical and coding elements are incorporated into this particular program.
+
+The handwriting font symbolizes a playful, curious, and organic aesthetic within the design language, while the classical font exudes a more formal appearance. Together, these fonts create a harmonious yet unconventional visual representation.
 
 ![]({{site.baseurl}}/assets/img/sd4.png)
 
 ## Art work
 
-I use affinity designer to draw this. I am not good at drawing, but with image reference, the right brush, and the confidence in each line, I managed to draw four beautiful objects. Again, each drawing represents the beauty and playful of nature which matches the fonts.
+I utilized Affinity Designer to create these drawings. While I am not particularly skilled at drawing, I relied on image references, the appropriate brush selection, and confidence in each stroke to bring four beautiful objects to life. Despite my limitations, I aimed to capture the beauty and playfulness of nature in each drawing, aligning them harmoniously with the chosen fonts."
 
 ## Square + Fluid Design
 
-In addition to that, let's take another look at my other really proud creation – my merch website design. This website emphasizes fluidity and contemporary design language. The part that makes this website different is that it has only two colors – black and white. And only one color can be displayed at one time. You can switch between two colors. 
+Furthermore, let's delve into another creation of mine that I am truly proud of: my merchandise website design. This website highlights fluidity and a contemporary design language. What sets this website apart is its utilization of only two colors – black and white – with only one color displayed at a time. Users have the ability to switch between these two colors.
 
-This gives a website a modern, clean and luxurious look. This design is useful when you only have one product of a opposite color or just to emphasize on your most prominent or newest product. 
+This approach grants the website a modern, clean, and luxurious appearance. Such a design proves beneficial when showcasing a single product with an opposing color or to accentuate your most prominent or newest offering.
 
 ![]({{site.baseurl}}/assets/img/merch2.png)
 
@@ -62,14 +68,14 @@ This gives a website a modern, clean and luxurious look. This design is useful w
 
 ## Inspiration
 
-**Inspiration/How I make the website:** I use google slides to design this before I code the whole website. I believe that even though the right tools play an important role in designing, with the right attitude and creativity, tools become less important. The idea of the website comes from mostly nature, the beauty and colorful of nature. Square brings the feel of stability, trustworthy, and honesty. 
+**Inspiration/How I make the website:** I utilized Google Slides to design the website before proceeding with the coding phase. While the right tools undoubtedly play a significant role in the design process, I firmly believe that with the right attitude and creativity, the importance of tools diminishes. The inspiration for the website primarily stems from the captivating beauty and vibrant colors of nature. The use of squares imparts a sense of stability, trustworthiness, and honesty.
 
 ## Bottom line
 
-To answer the question above,  _But how minimalist is enough minimalist?_  The answer is _yes_, as long as you can justify the simplistic design. I emphasize attention seeking and the elegancy in my website. The idea behind this is there are many hidden meanings in every square as well as in every piece of art; you have to look for it to find the beauty. Big space of nothingness often contains the hidden world. 
+To answer the question above,  _But how minimalist is enough minimalist?_  The answer is _yes_, as long as you can justify the simplistic design. I strive to highlight attention-seeking elements and elegance in my website design. The concept behind this approach is that every square, as well as every piece of art, harbors numerous hidden meanings that require exploration to uncover their inherent beauty. Often, it is within vast expanses of apparent nothingness that hidden worlds reside.
 
-**Why does this page exists?** Because I want to highlight the change and the growth in the way I design. I want to believe that I also invented this design language. 
+**Why does this page exists?** I aim to emphasize the evolution and growth in my design approach, as I strive to believe that I have contributed to the creation of this design language.
 
-I introduced the concept of more than minimalist design, which is practical in most portfolio cases where aesthetic is what you are looking for. 
+I have introduced the concept of going beyond minimalism, which proves beneficial in various portfolio cases where aesthetics are a primary focus.
 
 
