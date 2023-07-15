@@ -3,14 +3,14 @@ layout: post
 title: How I gained 35 pounds in 2 months
 date: 2023-07-7 13:32:20 +0300
 description: My weight lifting journey
-img:  muscle.png# Add image post (optional)
+img:  muscle.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Bodybuild, muscle, protein, workout, gym]
 ---
 
 # why?
 
-hroughout my life, I had always been skinny. One day, I made a firm decision that I wanted to transform my physique, not only to fill out clothes better but also to boost my confidence. Understanding my strong work ethic, I set a clear goal for the summer of 2022: focusing on a combination of dedicated eating and working out.
+Throughout my life, I had always been skinny. One day, I made a firm decision that I wanted to transform my physique, not only to fill out clothes better but also to boost my confidence. Understanding my strong work ethic, I set a clear goal for the summer of 2022: focusing on a combination of dedicated eating and working out.
 
 # The Journey
 
