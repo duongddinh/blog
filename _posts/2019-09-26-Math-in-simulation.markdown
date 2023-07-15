@@ -3,7 +3,7 @@ layout: post
 title: Math in Simulation
 date: 2019-09-26 15:47:15 +0300
 description: How I use Math to write a simulation which includes neural network and pool simulation. # Add post description (optional)
-img: # Add image post (optional)
+img: mathinsim.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [simulation, Math, pool, table, bezier, quadratic, equation, Calculus, neural, network, microevolution, macroevolution]
 ---
