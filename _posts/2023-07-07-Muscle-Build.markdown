@@ -28,9 +28,17 @@ After-afternoon (3pm): Apple, random snack, cheese
 
 Night (6pm): Rice with 200g of chicken/beef/tuna and spinach
 
-Before bed (10pm): Weight gained (2 scoops ) and bread
+Before bed (10pm): Weight gained (2 scoops) and bread
 
-# Workout routine:
+# Supplements
+
+- weight gainer after working out
+
+- multivitamin in the morning
+
+- Omega3, vitamin K2 D3 and Astaxanthin before bed
+
+# Workout routine during the summer
 
 Monday: Upper body day (Heavy) with benchpress, incline benpress, pecs fly, Deadlift, rowing, tricep extension, bicep curls
 
@@ -45,6 +53,21 @@ Friday: Lower body (heavy): Same as above but more intense.
 Saturday: rest day
 
 Sunday: Rest day
+
+# Workout routine now
+
+I follow a comprehensive workout routine that includes exercises for push, pull, and legs. While I strive to maintain consistency, I must admit that my commitment has been affected by the demands and priorities of my current career and personal life. :)
+
+# Effect on the body
+
+I have observed the emergence of significant and elongated stretch marks around my biceps, triceps, and armpit areas. Additionally, I have noticed the presence of numerous stretch marks on my legs.
+
+Furthermore, I have observed that my face has become rounder, and I have experienced an increase in hunger sensations. It is also easier for me to sweat. 
+
+# People behind this
+
+I am grateful to my mom and my trainer for their unwavering support and guidance throughout my journey. Without them, I would not have been able to achieve my goals. <3
+
 
 # The End? 
 
