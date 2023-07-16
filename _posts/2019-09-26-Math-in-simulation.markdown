@@ -8,25 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [simulation, Math, pool, table, bezier, quadratic, equation, Calculus, neural, network, microevolution, macroevolution]
 ---
 
-# Pool Table Simulation
-
-This is originally created in addition to a [AP Calculus final project](https://docs.google.com/document/d/1GnH2f1MJIVFp0ZecxBucmMfKm_xlQ4ZAMjXRa4WxazQ), which is the Luigi's curve table problem. I wrote this to support my research as well as my solution (though not required) even though it took 3 months after the solution is written and is submitted. 
-
-The purpose of this program is to simulate a unique pool table known as the curve pool table. The objective is to shoot a ball in such a way that it hits the cushion on the parabolic side and bounces back directly over the same starting spot. One crucial aspect of this parabolic pool table is that the program only requires the width and height of the table as input (as it may be challenging for individuals to deduce the quadratic equation solely from observing the curve). Consequently, the program generates a quadratic equation based on the provided width and length of the curve. This equation is then used to calculate the slope and coordinates of the reflection path.
-
-Generating the curve is a straightforward process, utilizing the concept of a Bezier curve. However, calculating the reflection path poses a more significant challenge. To accomplish this, I employ the slope-line equation, utilizing the x and y coordinates of the ball's current position and the x and y coordinates of its intended destination. Thankfully, Java, the programming language, conveniently provides the mouse's coordinates when it interacts with the frame. Using this information, I can calculate the slope between the initial and projected points by determining the dy/dx ratio.
-
-Using the general equation of a quadratic curve --  y= ax^2 + h -- I use “w” as the width of the table and “h” is the length of the parabola and “a” is the slope or how the curve stretches (figure above). Since we don’t know “a” (the slope) and it is, perhaps, the most important component to calculate the reflection path, we have to find “a” in relation to “w” and “h”. So, this is how I solve for “a”:
-At x = w/2, y = 0   
- 0=a(w/2)^2+h  a=-4h/w^2 
-
-With that aspect clarified, I primarily utilize the slope-line equation to calculate the reflection path. I generate an additional line known as the tangent line, which possesses the same slope as a point on the curve (specifically, the spot where the ball will hit the cushion). From this line, I create another line perpendicular to the tangent line at the point of impact. Applying basic principles of physics, the angle of the reflection path matches that of the projecting path. Consequently, when the angles are equal, the distances between the lines are also equal due to the properties of an equilateral triangle. Solving for the reflection path becomes a straightforward task.
-
-However, here lies the challenge: drawing all the normal lines is not an easy feat, especially when dealing with extraneous information and lacking the necessary components to create an actual line. Therefore, accomplishing this task requires some ingenuity and workaround. While I possess the starting coordinates and the irrelevant slope, I do not have the ending coordinates. Consequently, I resort to employing very large numbers (-50000 and 50000) in the coordinate system to ascertain the slope and draw the line effectively.
-
-[Link to that program](https://null0verflow.xyz/oldindex.html)
-
-The pool table program takes me a lot of time (approximately a month to complete). The hardest part is often thinking of a way to calculate and draw the reflection path because the surface is not flat. The idea of how to calculate it came unexpectedly in my dream. 
+This content is divided into two sections. The first section focuses on the neural network, while the second section delves into the simulation aspect.
 
 # Neural network 
 
@@ -52,7 +34,32 @@ Observing the simulation, after several runs, the balls (referring to the simula
 
 Genetic variation is incredibly crucial. It serves as the primary catalyst for a stable environment and growth. Let us strive to conserve species and protect the environment. We are currently facing the sixth mass extinction, and this time, humanity itself is the meteor.
 
-This program is written in java (It is a _very_ simple program with a simple neural network. Brains except uno input and decide whether to jump or not. Brains will accept more inputs --up to 3-- soon). Keep in mind that not everyone is born stupid; hence, you may need to re-run multiple times (possibility of a smart individual is 3/10, and possibility of all-are-smart is 0.027).
+This program is written in Java and features a simple neural network. Currently, the program accepts only one input, determining whether to jump or not. However, in the near future, the brains will be designed to handle additional inputs, potentially up to three.
+
+It's important to note that intelligence varies among individuals, and not everyone starts off with the same level of aptitude. Therefore, you may need to run the program multiple times to encounter smarter individuals. The likelihood of encountering a smart individual is approximately 3 out of 10, while the probability of all individuals being smart is 0.027.
+
+# Pool Table Simulation
+
+This is originally created in addition to a [AP Calculus final project](https://docs.google.com/document/d/1GnH2f1MJIVFp0ZecxBucmMfKm_xlQ4ZAMjXRa4WxazQ), which is the Luigi's curve table problem. I wrote this to support my research as well as my solution (though not required) even though it took 3 months after the solution is written and is submitted. 
+
+The purpose of this program is to simulate a unique pool table known as the curve pool table. The objective is to shoot a ball in such a way that it hits the cushion on the parabolic side and bounces back directly over the same starting spot. One crucial aspect of this parabolic pool table is that the program only requires the width and height of the table as input (as it may be challenging for individuals to deduce the quadratic equation solely from observing the curve). Consequently, the program generates a quadratic equation based on the provided width and length of the curve. This equation is then used to calculate the slope and coordinates of the reflection path.
+
+Generating the curve is a straightforward process, utilizing the concept of a Bezier curve. However, calculating the reflection path poses a more significant challenge. To accomplish this, I employ the slope-line equation, utilizing the x and y coordinates of the ball's current position and the x and y coordinates of its intended destination. Thankfully, Java, the programming language, conveniently provides the mouse's coordinates when it interacts with the frame. Using this information, I can calculate the slope between the initial and projected points by determining the dy/dx ratio.
+
+By utilizing the general equation of a quadratic curve, represented as y = ax^2 + h, I assign the variables as follows: "w" represents the width of the table, "h" represents the length of the parabola, and "a" represents the slope or the degree of curvature. As the slope ("a") plays a crucial role in calculating the reflection path, it is essential to determine its value in relation to "w" and "h". Here's how I solve for "a":
+
+At x = w/2, y = 0
+0 = a(w/2)^2 + h
+Simplifying the equation further, we find:
+a = -4h/w^2
+
+With that aspect clarified, I primarily utilize the slope-line equation to calculate the reflection path. I generate an additional line known as the tangent line, which possesses the same slope as a point on the curve (specifically, the spot where the ball will hit the cushion). From this line, I create another line perpendicular to the tangent line at the point of impact. Applying basic principles of physics, the angle of the reflection path matches that of the projecting path. Consequently, when the angles are equal, the distances between the lines are also equal due to the properties of an equilateral triangle. Solving for the reflection path becomes a straightforward task.
+
+However, here lies the challenge: drawing all the normal lines is not an easy feat, especially when dealing with extraneous information and lacking the necessary components to create an actual line. Therefore, accomplishing this task requires some ingenuity and workaround. While I possess the starting coordinates and the irrelevant slope, I do not have the ending coordinates. Consequently, I resort to employing very large numbers (-50000 and 50000) in the coordinate system to ascertain the slope and draw the line effectively.
+
+[Link to that program](https://null0verflow.xyz/oldindex.html)
+
+The pool table program takes me a lot of time (approximately a month to complete). The hardest part is often thinking of a way to calculate and draw the reflection path because the surface is not flat. The idea of how to calculate it came unexpectedly in my dream. 
 
 # Bottom line 
 
